@@ -2,13 +2,23 @@
   position: sticky;
   box-shadow: 0px 10px 20px #ccc;
   margin-bottom: 10px;
+  align-items: center;
 }
 .header-ul {
   display: flex;
   flex: 1;
   justify-content: space-between;
+  align-items: center;
 }
 .header-h2 {
   font-family: monospace;
   font-size: 30px;
+}
+
+.logout-btn{
+  background: orangered;
+  border: none;
+  justify-content: center;
+  align-items: center;
+  display: flex;
 }
