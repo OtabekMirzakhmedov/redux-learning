@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 import { useSelector, useDispatch } from 'react-redux';
 import './App.css';
 
@@ -29,6 +30,18 @@ function App() {
       <button onClick={decrement}>Decrement</button>
       <button onClick={addBy}>Add by 10</button>
       
+=======
+import React from "react";
+import "./App.css";
+import Auth from "./components/Auth";
+import Layout from "./components/Layout";
+
+function App() {
+  return (
+    <div className="App">
+      <Auth />
+      {/* <Layout /> */}
+>>>>>>> StartingApp
     </div>
   );
 }
